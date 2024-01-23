@@ -46,6 +46,11 @@ int main() {
     string decodedMessage = problem.decodeMessage(key, message);
     cout << "Decoded message: " << decodedMessage << endl;
 
+    Problem6 problem;
+    int n = 10;
+    vector<int> result = problem.generatePrimesGreaterThanN(n);
+    cout << "Two prime numbers greater than " << n << ": " << result[0] << " and " << result[1] << endl;
+
 
     return 0;
 }
