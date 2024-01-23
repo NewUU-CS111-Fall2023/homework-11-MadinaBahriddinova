@@ -40,6 +40,12 @@ int main() {
     int result = problem.superPow(a, b);
     cout << "Result: " << result << endl;
 
+    Problem5 problem;
+    string key = "happy boy";
+    string message = "hpyp bop";
+    string decodedMessage = problem.decodeMessage(key, message);
+    cout << "Decoded message: " << decodedMessage << endl;
+
 
     return 0;
 }
