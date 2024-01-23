@@ -51,6 +51,12 @@ int main() {
     vector<int> result = problem.generatePrimesGreaterThanN(n);
     cout << "Two prime numbers greater than " << n << ": " << result[0] << " and " << result[1] << endl;
 
+    Problem7 problem;
+    int a = 3;
+    int b = 5;
+    int result = problem.eulerFunction(a, b);
+    cout << "Euler function of " << a << " * " << b << ": " << result << endl;
+
 
     return 0;
 }
