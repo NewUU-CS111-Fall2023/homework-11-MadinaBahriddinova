@@ -28,6 +28,12 @@ int main() {
     bool result = problem.canPartition(nums);
     cout << "Can partition the array: " << (result ? "true" : "false") << endl;
 
+    Problem3 problem;
+    string s = "leetcode";
+    vector<string> wordDict = {"leet", "code"};
+    bool result = problem.wordBreak(s, wordDict);
+    cout << "Can be segmented: " << (result ? "true" : "false") << endl;
+
 
     return 0;
 }
