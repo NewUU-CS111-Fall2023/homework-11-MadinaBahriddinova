@@ -34,6 +34,12 @@ int main() {
     bool result = problem.wordBreak(s, wordDict);
     cout << "Can be segmented: " << (result ? "true" : "false") << endl;
 
+    Problem4 problem;
+    int a = 2;
+    vector<int> b = {1, 0};
+    int result = problem.superPow(a, b);
+    cout << "Result: " << result << endl;
+
 
     return 0;
 }
