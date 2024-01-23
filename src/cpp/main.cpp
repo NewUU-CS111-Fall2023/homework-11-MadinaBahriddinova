@@ -17,7 +17,12 @@
 using namespace std;
 
 int main() {
-    // write your code here
+    Problem1 problem;
+    vector<int> nums = {2, 1};
+    int target = 1;
+    int result = problem.findTargetSumWays(nums, target);
+    cout << "Number of different expressions: " << result << endl;
+
 
     return 0;
 }
