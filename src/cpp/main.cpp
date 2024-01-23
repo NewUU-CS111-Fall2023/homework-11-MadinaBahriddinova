@@ -57,6 +57,14 @@ int main() {
     int result = problem.eulerFunction(a, b);
     cout << "Euler function of " << a << " * " << b << ": " << result << endl;
 
+    Problem8 problem;
+    int p = 17;
+    int q = 11;
+    int e, d;
+    problem.generateKeys(p, q, e, d);
+    cout << "Generated e: " << e << endl;
+    cout << "Generated d: " << d << endl;
+
 
     return 0;
 }
