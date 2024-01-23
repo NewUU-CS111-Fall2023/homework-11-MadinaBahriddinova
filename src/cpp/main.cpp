@@ -22,6 +22,11 @@ int main() {
     int target = 1;
     int result = problem.findTargetSumWays(nums, target);
     cout << "Number of different expressions: " << result << endl;
+    
+    Problem2 problem;
+    vector<int> nums = {1, 5, 11, 5};
+    bool result = problem.canPartition(nums);
+    cout << "Can partition the array: " << (result ? "true" : "false") << endl;
 
 
     return 0;
